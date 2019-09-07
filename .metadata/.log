@@ -1,0 +1,104 @@
+!SESSION 2019-09-07 21:33:31.897 -----------------------------------------------
+eclipse.buildId=4.11.0.I20190307-0500
+java.version=1.8.0_221
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=fr_FR
+Framework arguments:  -product org.eclipse.epp.package.java.product
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.eclipse.epp.package.java.product
+
+!ENTRY org.eclipse.egit.core 1 0 2019-09-07 21:34:28.730
+!MESSAGE Using Apache MINA sshd as ssh client.
+
+!ENTRY org.eclipse.jface 2 0 2019-09-07 21:34:33.197
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2019-09-07 21:34:33.197
+!MESSAGE A conflict occurred for CTRL+SHIFT+T:
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.jdt.ui.navigate.open.type,Open Type,
+		Open a type in a Java editor,
+		Category(org.eclipse.ui.category.navigate,Navigate,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@284c4f02,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+Binding(CTRL+SHIFT+T,
+	ParameterizedCommand(Command(org.eclipse.lsp4e.symbolinworkspace,Go to Symbol in Workspace,
+		,
+		Category(org.eclipse.lsp4e.category,Language Servers,null,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@709d6de5,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.contexts.window,,,system)
+
+!ENTRY org.eclipse.egit.ui 2 0 2019-09-07 21:35:10.114
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Florent DAVERSIN'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:11.614
+!MESSAGE Entering DelegatingStreamConnectionProvider()
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:11.641
+!MESSAGE DelegatingStreamConnectionProvider classloader = org.eclipse.osgi.internal.loader.EquinoxClassLoader@6fe33512[org.springframework.tooling.boot.ls:1.6.0.201904170912(id=525)]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:11.661
+!MESSAGE SpringBootLanguageServer exists!
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:12.216
+!MESSAGE Instantiating ReusableClasspathListenerHandler
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.483
+!MESSAGE Boot LS startup time from start to initialized: 8794ms
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.587
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.plphQMAX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.604
+!MESSAGE subscribing to classpath changes: sts4.classpath.plphQMAX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.617
+!MESSAGE Setting up ClasspathListenerManager
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.629
+!MESSAGE subsribers = [sts4.classpath.plphQMAX]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.642
+!MESSAGE Sending initial event for all projects ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.655
+!MESSAGE project adneom ...
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.666
+!MESSAGE Sending initial event for all projects DONE
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.675
+!MESSAGE Preparing classpath changed notification adneom
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.685
+!MESSAGE ClasspathListenerHandler addClasspathListener sts4.classpath.plphQMAX => OK
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.697
+!MESSAGE exists = true open = true => deleted = false
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.719
+!MESSAGE classpath=21 entries
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.731
+!MESSAGE executing callback sts4.classpath.plphQMAX adneom false 21
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:37:20.790
+!MESSAGE executing callback sts4.classpath.plphQMAX SUCCESS [done]
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:46:14.404
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.plphQMAX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:46:14.423
+!MESSAGE unsubscribing from classpath changes: sts4.classpath.plphQMAX
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:46:14.438
+!MESSAGE subsribers = null
+
+!ENTRY org.springframework.tooling.ls.eclipse.commons 1 0 2019-09-07 21:46:14.459
+!MESSAGE ClasspathListenerHandler removeClasspathListener sts4.classpath.plphQMAX => OK

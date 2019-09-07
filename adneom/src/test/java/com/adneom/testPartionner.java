@@ -1,0 +1,9 @@
+package com.adneom;
+
+import junit.framework.TestCase;
+
+public class testPartionner extends TestCase {
+
+	
+@test
+}
