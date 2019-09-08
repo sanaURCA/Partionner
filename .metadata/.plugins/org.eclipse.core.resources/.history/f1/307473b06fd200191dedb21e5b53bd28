@@ -37,17 +37,6 @@ public class PartionnerTest {
 	}
 	
 	@Test
-	public void partionnerAvec_1Test() {
-		List<Integer> list = Arrays.asList(1,2,3,4,5);
-		List<List<Integer>> newList = Partionner.partition(list, 1);
-		assertEquals(newList.get(0), Arrays.asList(1));
-		assertEquals(newList.get(1), Arrays.asList(2));
-		assertEquals(newList.get(2), Arrays.asList(3));
-		assertEquals(newList.get(3), Arrays.asList(4));
-		assertEquals(newList.get(4), Arrays.asList(5));
-	}
-	
-	@Test
 	public void isListEmptyTest() {
 		 List<List<Integer>> emptyList = Partionner.partition(new ArrayList<>(), 1);
 		 assertTrue(emptyList.isEmpty());

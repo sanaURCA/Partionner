@@ -216,3 +216,51 @@
 2019-09-08 21:16:38,285 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
 2019-09-08 21:16:38,295 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2019-09-08 21:16:38,303 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:27:21,184 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:27:21,184 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:27:21,196 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:27:21,204 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:27:44,779 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:27:44,787 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:27:44,795 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:27:44,803 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:28:14,457 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:28:14,477 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:28:14,497 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:28:14,519 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:28:28,161 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:28:28,167 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:28:28,175 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:28:28,183 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:28:44,311 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:28:44,319 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:28:44,331 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:28:44,339 [Worker-46: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:33:00,829 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:33:00,837 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:33:00,845 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:33:00,853 [Worker-61: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:33:54,100 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:33:54,100 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:33:54,108 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:33:54,116 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:34:10,277 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:34:10,285 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:34:10,289 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:34:10,297 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:34:35,693 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:34:35,701 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:34:35,709 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:34:35,713 [Worker-62: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:35:47,023 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:35:47,027 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:35:47,035 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:35:47,043 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:36:09,984 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:36:10,024 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:36:10,040 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:36:10,064 [Worker-63: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources
+2019-09-08 21:36:18,266 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:36:18,282 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\main\resources
+2019-09-08 21:36:18,290 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2019-09-08 21:36:18,302 [Worker-57: Building workspace] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory C:\Users\Florent DAVERSIN\Documents\Partionner\adneom\src\test\resources

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><testrun name="PartionnerTest" project="adneom" tests="6" started="6" failures="0" errors="0" ignored="0">
+  <testsuite name="com.adneom.PartionnerTest" time="0.0">
+    <testcase name="partionnerTest" classname="com.adneom.PartionnerTest" time="0.0"/>
+    <testcase name="nullPointerExceptionWhenListNullTest" classname="com.adneom.PartionnerTest" time="0.0"/>
+    <testcase name="isListEmptyTest" classname="com.adneom.PartionnerTest" time="0.0"/>
+    <testcase name="partionnerAvec_1Test" classname="com.adneom.PartionnerTest" time="0.0"/>
+    <testcase name="partionnerAvec_2Test" classname="com.adneom.PartionnerTest" time="0.0"/>
+    <testcase name="partionnerAvec_3Test" classname="com.adneom.PartionnerTest" time="0.0"/>
+  </testsuite>
+</testrun>

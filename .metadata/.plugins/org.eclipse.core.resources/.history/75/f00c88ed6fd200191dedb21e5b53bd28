@@ -44,7 +44,7 @@ public class PartionnerTest {
 		assertEquals(newList.get(1), Arrays.asList(2));
 		assertEquals(newList.get(2), Arrays.asList(3));
 		assertEquals(newList.get(3), Arrays.asList(4));
-		assertEquals(newList.get(4), Arrays.asList(5));
+		assertEquals(newList.get(3), Arrays.asList(5));
 	}
 	
 	@Test
