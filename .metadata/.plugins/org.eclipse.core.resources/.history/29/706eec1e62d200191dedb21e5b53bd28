@@ -1,0 +1,23 @@
+package com.adneom;
+
+import static org.junit.Assert.*;
+
+import org.junit.Test;
+
+public class PartionnerTest {
+
+	@Test
+	public void throw_exception_when_list_is_null() {
+	      Exception exception = assertThrows(IllegalArgumentException.class, () ->
+			Partitioner.partition(null,1));
+	      assertEquals(PartitionerResource.LIST_IS_NULL.name(), exception.getMessage());
+		
+	}
+
+	@Test
+	public void should_return_empty_list_when_list_is_empty() {
+		 List<List<Integer>> emptyList = Partitioner.partition(new ArrayList<>(), 1);
+		 assertTrue(emptyList.isEmpty());
+		
+	}
+}

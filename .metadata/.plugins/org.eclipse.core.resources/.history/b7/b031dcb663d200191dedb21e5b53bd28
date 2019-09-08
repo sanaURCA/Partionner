@@ -1,0 +1,21 @@
+package com.adneom;
+
+import static org.junit.Assert.*;
+
+import java.util.Arrays;
+import java.util.List;
+
+import org.junit.Test;
+
+public class PartionnerTest {
+
+
+	@Test
+	public void partionnerTest() {
+		List<Integer> list = Arrays.asList(1,3,4,5,8,1,4);
+		List<List<Integer>> newList = Partionner.partition(list, 8);
+		assertEquals(newList.get(0), Partionner.partition(list, 8));
+		System.out.println(Partionner.partition(list, 8));
+	}
+	
+}
