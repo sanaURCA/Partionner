@@ -24,7 +24,7 @@ static <T> List<List<T>> partition(List<T> list, int partitionSize) {
 static <T> void checkArguments(List<T> list, int partitionSize) {
 	if(list == null)
 		throw new IllegalArgumentException();
-	if(partitionSize <= 0)
+	if(partitionSize < 0)
 		throw new IllegalArgumentException();
 }
 }
