@@ -27,27 +27,27 @@ public class PartionnerTest<T> {
 	}
 	
 	@Parameterized.Parameter(0)
-	public List<T> list;
+	public List<T> listToSplit;
 	@Parameterized.Parameter(1)
 	public int partitionSize;
 	@Parameterized.Parameter(2)
-	public List<List<T>> newList;
+	public List<List<T>> listAfterPartition;
 	
 
 	@Test
 	public void should_return_list_when_partitionSize() {
-		assertEquals(newList, Partionner.partition(list, partitionSize));
+		assertEquals(listAfterPartition, Partionner.partition(listToSplit, partitionSize));
 	}
 	
 	@Test(expected = IllegalArgumentException.class)
 	public void throw_exception_when_list_is_null() {
-		List<Integer> list = null;
-		Partionner.partition(list, 2);
+		listToSplit = null;
+		Partionner.partition(listToSplit, 2);
 	}
 	
 	@Test
 	public void should_return_empty_list_when_list_is_empty() {
-		 List<List<Integer>> emptyList = Partionner.partition(new ArrayList<>(), 1);
-		 assertTrue(emptyList.isEmpty());
+		listAfterPartition = Partionner.partition(new ArrayList<>(), 1);
+		 assertTrue(listAfterPartition.isEmpty());
 	}
 }
