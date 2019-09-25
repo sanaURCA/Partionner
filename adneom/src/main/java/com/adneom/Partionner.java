@@ -5,20 +5,20 @@ import java.util.List;
 
 public class Partionner {
 	
-static <T> List<List<T>> partition(List<T> list, int partitionSize) {
-		checkArguments(list, partitionSize);
-		List<List<T>> newList = new ArrayList<List<T>>(); 
+static <T> List<List<T>> partition(List<T> listToSplit, int partitionSize) {
+		checkArguments(listToSplit, partitionSize);
+		List<List<T>> listAfterPartition = new ArrayList<List<T>>(); 
 		if (partitionSize == 0) 
-			 newList.add(list);
+			listAfterPartition.add(listToSplit);
 		else {
-		int length =  list.size() ; 
-		for(int i= 0 ; i<  length; i+=partitionSize) {
-			newList.add(new ArrayList<T>(
-		            list.subList(i, Math.min(length, i + partitionSize)))
+		int listeSize =  listToSplit.size() ; 
+		for(int i= 0 ; i<  listeSize; i+=partitionSize) {
+			listAfterPartition.add(new ArrayList<T>(
+					listToSplit.subList(i, Math.min(listeSize, i + partitionSize)))
 		        );
 		}
 		}
-		return newList;
+		return listAfterPartition;
 	}
 
 static <T> void checkArguments(List<T> list, int partitionSize) {
