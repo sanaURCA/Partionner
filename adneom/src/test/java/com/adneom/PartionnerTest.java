@@ -10,17 +10,23 @@ import java.util.List;
 import org.junit.Test;
 
 public class PartionnerTest {
-
+	
+	@Test(expected = IllegalArgumentException.class)
+	public void throw_exception_when_list_is_null() {
+		List<Integer> list = null;
+		Partionner.partition(list, 2);
+	}
 
 	@Test
-	public void partionnerTest() {
+	public void should_return_1345814_when_list_1345814_and_partition_size_8() {
 		List<Integer> list = Arrays.asList(1,3,4,5,8,1,4);
 		List<List<Integer>> newList = Partionner.partition(list, 8);
+		assertTrue(newList.size() == 1);
 		assertEquals(newList.get(0), Arrays.asList(1,3,4,5,8,1,4));
 	}
 	
 	@Test
-	public void partionnerAvec_2Test() {
+	public void should_return_12_34_5_when_list_12345_and_partition_size_2() {
 		List<Integer> list = Arrays.asList(1,2,3,4,5);
 		List<List<Integer>> newList = Partionner.partition(list, 2);
 		assertTrue(newList.size() == 3);
@@ -30,7 +36,7 @@ public class PartionnerTest {
 	}
 	
 	@Test
-	public void partionnerAvec_3Test() {
+	public void should_return_123_45_when_list_12345_and_partition_size_3() {
 		List<Integer> list = Arrays.asList(1,2,3,4,5);
 		List<List<Integer>> newList = Partionner.partition(list, 3);
 		assertTrue(newList.size() == 2);
@@ -39,7 +45,7 @@ public class PartionnerTest {
 	}
 	
 	@Test
-	public void partionnerAvec_1Test() {
+	public void should_return_1_2_3_4_5_when_list_12345_and_partition_size_1(){
 		List<Integer> list = Arrays.asList(1,2,3,4,5);
 		List<List<Integer>> newList = Partionner.partition(list, 1);
 		assertTrue(newList.size() == 5);
@@ -51,14 +57,8 @@ public class PartionnerTest {
 	}
 	
 	@Test
-	public void isListEmptyTest() {
+	public void should_return_empty_list_when_list_is_empty() {
 		 List<List<Integer>> emptyList = Partionner.partition(new ArrayList<>(), 1);
 		 assertTrue(emptyList.isEmpty());
-	}
-	
-	@Test(expected = NullPointerException.class)
-	public void nullPointerExceptionWhenListNullTest() {
-		List<Integer> list = null;
-		Partionner.partition(list, 2);
 	}
 }
