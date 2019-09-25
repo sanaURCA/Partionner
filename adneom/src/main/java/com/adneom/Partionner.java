@@ -5,16 +5,16 @@ import java.util.List;
 
 public class Partionner {
 	
-static <T> List<List<T>> partition(List<T> list, int n) {
+static <T> List<List<T>> partition(List<T> list, int partition_size) {
 		
 		List<List<T>> newList = new ArrayList<List<T>>(); 
-		if (n ==0) 
+		if (partition_size ==0) 
 			 newList.add(list);
 		else {
 		int length =  list.size() ; 
-		for(int i= 0 ; i<  length; i+=n) {
+		for(int i= 0 ; i<  length; i+=partition_size) {
 			newList.add(new ArrayList<T>(
-		            list.subList(i, Math.min(length, i + n)))
+		            list.subList(i, Math.min(length, i + partition_size)))
 		        );
 		}
 		}
